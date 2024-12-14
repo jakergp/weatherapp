@@ -5,14 +5,19 @@
         <script src="weatherapp.js" defer></script>
         <link href='https://fonts.googleapis.com/css?family=Geist Mono' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
-        <title>Weather App</title>
+        <title>Clima</title>
     </head>
     <body>
-        <div id="header">Weather App</div>
-        <form onsubmit="return false;">
-            <input type="text" id="location" name="location" placeholder="Ingresa una ciudad, país o región">
-            <button id="btn-location">Submit</button>
+        <div id="header">Clima</div>
+        <form onsubmit="return false;" id="query-form">
+            <input type="text" id="location" name="location" placeholder="Ubicación">
+            <button class = "btn" id="btn-location">Buscar</button>
+
+            <button id="btn-celsius" class="btn active">°C</button><button id="btn-fahrenheit" class="btn">°F</button>
+            <span id="loading"></span>
         </form>
-        <div id="content"></div>
+        <div id="content">
+            Ingresa el nombre de una ciudad, país o región.
+        </div>
     </body>
 </html>
