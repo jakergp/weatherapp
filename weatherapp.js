@@ -1,16 +1,11 @@
-const input_city = document.getElementById("city");
-const btn_input_city = document.getElementById("btn-city");
-btn_input_city.addEventListener('click', searchCity);
+const input_location= document.getElementById("location");
+const btn_input_location= document.getElementById("btn-location");
+btn_input_location.addEventListener('click', fetchWeatherFrom);
 const content = document.getElementById("content");
 
-function searchCity() {
-    var city = input_city.value.trim();
-
-    fetchWeatherFrom(city);
-}
-
-function fetchWeatherFrom(city) {
-    fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}/?key=NUJ8JFRC7EUWQQNBGW79XAY4Z&lang=es`)
+function fetchWeatherFrom() {
+    var location = input_location.value.trim();
+    fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}/?key=NUJ8JFRC7EUWQQNBGW79XAY4Z&lang=es`)
         .then((response) => {
             return response.json();
         }).then((response) => {

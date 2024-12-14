@@ -22,6 +22,10 @@ input {
     padding: 8px 12px;
 }
 
+#btn-location {
+    padding: 8px 12px;
+}
+
 #content {
     padding: 16px 30px;
 }
