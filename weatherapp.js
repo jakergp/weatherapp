@@ -1,11 +1,10 @@
 const input_city = document.getElementById("city");
 const btn_input_city = document.getElementById("btn-city");
 btn_input_city.addEventListener('click', searchCity);
-const content = document.getElementById("content")
+const content = document.getElementById("content");
 
 function searchCity() {
-    var city = input_city.value;
-    city = city.trim();
+    var city = input_city.value.trim();
 
     fetchWeatherFrom(city);
 }
@@ -54,7 +53,7 @@ function displayWeatherData(weatherData) {
 
     for (let i = 0; i < 7; i++) {
         const day = document.createElement("div");
-        day.classList.add("day")
+        day.classList.add("day");
         day.innerHTML = weatherData.days[i].date + '<br />';
         day.innerHTML+= weatherData.days[i].tempmin.toFixed(1);
         day.innerHTML+= " - " + weatherData.days[i].tempmax.toFixed(1);
