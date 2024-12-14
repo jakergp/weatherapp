@@ -1,0 +1,55 @@
+* {
+    font-family: Geist Mono;
+    font-size: 18px;
+    margin: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+div {
+    white-space: pre-wrap;
+}
+
+input {
+    margin-left: 16px;
+    width: 20%;
+}
+
+#content {
+    padding: 16px;
+}
+
+#conditions, #temp, #uvindex, #humidity, #days, #day_temps {
+    margin-top: 10px;
+}
+
+#name {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.day {
+    border-left: 2px solid black;
+    padding: 8px 0;
+}
+
+#days {
+    font-size: 1.2rem;
+}
+
+#day_temps{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid black;
+    border-left: 0;
+}
+
+#day_temps div {
+    text-align: center;
+}
