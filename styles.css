@@ -13,7 +13,7 @@
 }
 
 #query-form {
-    padding: 0 80px;
+    padding: 0 5%;
 }
 
 input {
@@ -44,7 +44,7 @@ input {
 }
 
 #content {
-    padding: 16px 80px;
+    padding: 16px 5%;
 }
 
 #conditions, #temp, #uvindex, #humidity, #days, #day_temps {
