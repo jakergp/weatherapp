@@ -11,4 +11,4 @@ A responsive and minimalist weather application built with JavaScript and powere
 - Implementing asynchronous JavaScript (e.g., `fetch`, `async/await`).
 - Enhancing user experience with dynamic and responsive design.
 
-🌐 [Live Demo](https://jakergp.github.io/weather-app)
+🌐 [Live Demo](https://jakergp.github.io/weatherapp/)
