@@ -8,7 +8,6 @@ A responsive and minimalist weather application built with JavaScript and powere
 
 ### What I Learned:
 - Working with RESTful APIs and handling JSON data.
-- Implementing asynchronous JavaScript (e.g., `fetch`, `async/await`).
-- Enhancing user experience with dynamic and responsive design.
+- Implementing asynchronous JavaScript.
 
 🌐 [Live Demo](https://jakergp.github.io/weatherapp/)
