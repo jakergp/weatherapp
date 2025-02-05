@@ -10,4 +10,4 @@ A responsive and minimalist weather application built with JavaScript and powere
 - Working with RESTful APIs and handling JSON data.
 - Implementing asynchronous JavaScript.
 
-🌐 [Live Demo](https://jakergp.github.io/weatherapp/)
+🌐 [Live Demo](https://javierariashe.github.io/weatherapp/)
